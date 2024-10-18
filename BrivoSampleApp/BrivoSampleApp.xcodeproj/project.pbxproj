@@ -197,6 +197,21 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		3DD17AEF2CC2855500BC1648 /* Origo_Keys_iOS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Origo_Keys_iOS_SDK;
+			sourceTree = "<group>";
+		};
+		3DD17AF02CC2855500BC1648 /* ExternalFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DD17AEF2CC2855500BC1648 /* Origo_Keys_iOS_SDK */,
+			);
+			path = ExternalFrameworks;
+			sourceTree = "<group>";
+		};
 		AFAC9D132C480DA200D15699 /* BrivoSampleAppUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +351,7 @@
 		E09E3DC82BA1F50000B2F901 /* BrivoSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				3DD17AF02CC2855500BC1648 /* ExternalFrameworks */,
 				AF0332A92C4FD758003B28B6 /* BrivoSampleApp.entitlements */,
 				AF0332A72C4FD644003B28B6 /* GoogleService-Info.plist */,
 				E09E3DF02BA244F900B2F901 /* Info.plist */,

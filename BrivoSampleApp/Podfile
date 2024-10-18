@@ -7,6 +7,9 @@ use_frameworks!
 
 target "BrivoSampleApp" do
     pod "Allegion.Access.MobileAccessSDK.iOS", "~> 4.0.0"
+    pod "OrigoSDK-Release", :path => "ExternalFrameworks/Origo_Keys_iOS_SDK/OrigoSDK-Release.podspec"
+    pod "SeosMobileKeysSDK-Release", :path => "ExternalFrameworks/Origo_Keys_iOS_SDK/SeosMobileKeysSDK-Release.podspec"
+    pod "OrigoMelSDK-Release", :path => "ExternalFrameworks/Origo_Keys_iOS_SDK/OrigoMelSDK-Release.podspec"
 end
 
 post_install do |installer|
