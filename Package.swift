@@ -24,6 +24,12 @@ let package = Package(
             targets: [
                 "BrivoBLEAllegion"
             ]
+        ),
+        .library(
+            name: "BrivoHIDOrigo",
+            targets: [
+                "BrivoHIDOrigo"
+            ]
         )
     ],
     targets: [
@@ -63,6 +69,13 @@ let package = Package(
             .binaryTarget(
                 name: "BrivoBLEAllegion",
                 path: "./Sources/BrivoMobileSDK/BrivoBLEAllegion.xcframework"
+            ),
+
+            // BrivoHIDOrigo targets
+
+            .binaryTarget(
+                name: "BrivoHIDOrigo",
+                path: "./Sources/BrivoMobileSDK/BrivoHIDOrigo.xcframework"
             )
     ]
 )
